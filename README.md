@@ -1,3 +1,4 @@
+
 # 💳 Online Payment Fraud Detection using Machine Learning
 
 A machine learning-based fraud detection system trained on a large financial transactions dataset. This project analyzes over 6 million payment records to identify fraudulent behavior using statistical analysis, visual exploration, and neural networks.
@@ -62,3 +63,38 @@ Used a simple deep learning model built with TensorFlow:
 1. Install required libraries:
    ```bash
    pip install numpy pandas matplotlib seaborn scipy tensorflow
+   ```
+
+2. Run the notebook:
+   ```bash
+   jupyter notebook onlinepaymentfrauddetection.ipynb
+   ```
+
+---
+
+## 📈 Results
+
+- Detected fraud with high precision using learned patterns
+- Model performs well despite class imbalance due to effective preprocessing and architecture
+
+---
+
+## ✅ Future Improvements
+
+- Use SMOTE or class weighting for better balance
+- Explore ensemble models (Random Forest, XGBoost)
+- Deploy as REST API for real-time fraud scoring
+
+---
+
+## 👨‍💻 Author
+
+**Vamsi Mohan Bangale**
+
+[Visit Kaggle Profile](https://www.kaggle.com/vamsimohanbangale)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
